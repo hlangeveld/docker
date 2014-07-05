@@ -9,7 +9,9 @@ or execute `docker help`:
 
     $ sudo docker
       Usage: docker [OPTIONS] COMMAND [arg...]
-        -H, --host=[]: The socket(s) to bind to in daemon mode, specified using one or more tcp://host:port, unix:///path/to/socket, fd://* or fd://socketfd.
+        -H, --host=[]: The socket(s) to bind to in daemon mode, specified 
+          using one or more tcp://host:port, unix:///path/to/socket, 
+          fd://* or fd://socketfd.
 
       A self-sufficient runtime for linux containers.
 
