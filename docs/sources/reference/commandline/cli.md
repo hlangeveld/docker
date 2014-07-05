@@ -49,8 +49,6 @@ Options like `--name=""` expect a string, and they
 can only be specified once. Options like `-c=0`
 expect an integer, and they can only be specified once.
 
-## daemon
-
     Usage of docker:
       --api-enable-cors=false                    Enable CORS headers in the remote API
       -b, --bridge=""                            Attach containers to a pre-existing network bridge
@@ -85,6 +83,8 @@ expect an integer, and they can only be specified once.
       -v, --version=false                        Print version information and quit
 
 Options with [] may be specified multiple times.
+
+## daemon
 
 The Docker daemon is the persistent process that manages containers.
 Docker uses the same binary for both the daemon and client. To run the
